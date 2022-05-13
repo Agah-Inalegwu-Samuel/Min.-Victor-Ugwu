@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact-VictorUgwuImpart</title>
+    <style>
+.title{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 40%;
+    padding-top: 3%;
+}
+.title h2{
+    margin-left: 70px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.title a h6{
+    margin-left: 20px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    
+}
+label{
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: .5em;
+}
+input, textarea{
+    width: 50%;
+    /* padding: .8em; */
+    margin-bottom: 5px;
+    border-radius: .3em;
+    border: 1px solid grey;
+    box-sizing: border-box;
+}
+
+input[type="submit"]{
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+    border: none;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 5em;
+    display: inline-block;
+    padding: .8em 2em;
+    width: unset;
+    cursor: pointer;
+}
+    
+.social-links img{
+     height: 25px;
+     margin: 20px;
+     cursor: pointer;
+}
+.social-links{
+    text-align: center;
+    background-color: rgba(0, 0, 27, 0.973);
+    color: white;
+}
+.social-links h5, a{
+    padding-top: 20px;
+    text-decoration: none;
+    color: white;
+}
+    @media only screen and (max-width:700px){
+        input, textarea{
+        width: 80%;
+        padding: .8em;
+        margin-bottom: 5px;
+        border-radius: .3em;
+        border: 1px solid grey;
+        box-sizing: border-box;
+    }
+    }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h2>Contact  Us</h2>
+            <a href="index.html"><h6>Home &boxbox;</h6></a>
+        </div>
+        <div class="details">
+            <H3>LOCATION</H3>
+            <p>Otada, Adoka, Benue State</p>
+            <h3>EMAIL</h3>
+            <P>victorugwu7@gmail.com</P>
+            <h3>PHONE</h3>
+            <P>07026268511, 09154038234</P>
+            
+            <form method="get" action="mailto:victorugwu7@gmail.com">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required>
+
+                <label for="email">Your Email</label>
+                <input type="email" required>
+
+                <label for="Number">Mobile Number</label>
+                <input type="number" required>
+
+               <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+
+                <input type="submit" class="send-message-cta" value="send message">
+            </form>
+        </div>
+
+        <div class="social-links"> 
+            <h5>Follow Us On</h5>
+            <a href="https://www.facebook.com/evangelistvictor.ugwu.75"><img src="facebook.jpg"></a>
+            <a href="https://www.instagram.com/p/CX84C1cqy7E/?utm_medium=copy_link"><img src="instagram.jpg"></a>
+        </div>
+
+    </div>
+</body>
+</html>
